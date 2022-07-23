@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locate Your IP Address</title>
+    <link rel="stylesheet" href="./style.css" class="css">
+    
+
+</head>
+<body>
+    <div class="container">
+          <div class="main">
+               <h3 class="heading">IP Address Tracker</h3>
+               <div class="search">
+               <input type="text" value="" placeholder="Search for any IP address or domain" class="textbtn" id="hh">
+               <div class="circlebtn">
+                   <div class="circle"></div>
+                   
+                   <div class="circleline"></div>
+                </div>
+                
+               </div>
+               <p id ="error" class="error"></p> 
+              
+          </div>
+               
+        </div>
+          
+          <div class="datacontainer">
+              <div class="data">
+                <p class="name">LOCATION</p>
+                <p class="description" id = "ipaddress"></p> 
+                  
+                </div>
+                <div class="data">
+            <p class="name">LOCATION</p>
+            <p class="description" id = "address"></p>
+            
+        </div>
+        <div class="data">
+            <p class="name">TIMEZONE</p>
+            <p class="description"id="timezone"></p>
+            
+        </div>
+        <div class="data">
+            <p class="name">ISP</p>
+            <p class="description" id="isp"></p>
+            
+        </div>
+        
+    </div> 
+    <div class="container" id="map">
+        
+        
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
